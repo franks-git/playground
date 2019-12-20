@@ -19,7 +19,9 @@ import com.kaswiner.game1.object.Player;
  */
 public class Game1 extends Canvas implements Runnable {
     
-    public static final int WIDTH = 640;
+    private static final long serialVersionUID = -9188054246789900679L;
+	
+	public static final int WIDTH = 640;
     public static final int HEIGHT = WIDTH / 12 * 9;
     
     private Thread thread;
@@ -33,7 +35,8 @@ public class Game1 extends Canvas implements Runnable {
         this.handler = new Handler();
         this.addKeyListener(new KeyInput(handler));
 
-        new Window(WIDTH, HEIGHT, "JOGO", this);
+        new Window(WIDTH, HEIGHT, "This is a kind of Game", this);
+        this.start();
         
         this.hud = new Hud();
         this.spawner = new Spawn(handler, hud);
@@ -63,7 +66,7 @@ public class Game1 extends Canvas implements Runnable {
         this.requestFocus();
         long lastTime = System.nanoTime();
         double amountOfTicks = 60.0;
-        double ns = 1000000000 / amountOfTicks;
+        double ns = 1_000_000_000 / amountOfTicks;
         double delta = 0;
         long timer = System.currentTimeMillis();
         int frames = 0;
@@ -111,7 +114,6 @@ public class Game1 extends Canvas implements Runnable {
         
         g.setColor(Color.BLACK);
         g.fillRect(0, 0, WIDTH, HEIGHT);
-        
         
         handler.render(g);
         hud.render(g);

@@ -9,6 +9,7 @@ import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import javax.imageio.ImageIO;
@@ -39,7 +40,7 @@ public final class Player implements Renderable {
         this.setPosY(posY);
         
         try {
-            this.imagePlayerSheet = ImageIO.read(new File("img/npc_woman03_walk.png"));
+        	this.imagePlayerSheet = ImageIO.read(System.class.getResourceAsStream("/npc_woman03_walk.png"));
             int imageWidth = this.imagePlayerSheet.getWidth() / 6;
             int imageHeight = this.imagePlayerSheet.getHeight() / 4;
             

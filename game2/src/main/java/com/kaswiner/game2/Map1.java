@@ -13,6 +13,7 @@ import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import javax.imageio.ImageIO;
@@ -29,7 +30,8 @@ public class Map1 {
         this.wayPoints = new ArrayList<>();
         
         try {
-            this.imageBackgroundMap = ImageIO.read(new File("img/grass_template2.jpg"));
+        	InputStream is = System.class.getResourceAsStream("/grass_template2.jpg");
+            this.imageBackgroundMap = ImageIO.read(is);
         } catch (IOException e) {
             e.printStackTrace();
         }
