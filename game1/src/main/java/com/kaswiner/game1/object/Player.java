@@ -3,12 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.kaswiner.game1;
+package com.kaswiner.game1.object;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
+
+import com.kaswiner.game1.Game1;
+import com.kaswiner.game1.GameObject;
+import com.kaswiner.game1.Handler;
+import com.kaswiner.game1.Hud;
+import com.kaswiner.game1.ID;
 
 /**
  *
@@ -43,7 +49,7 @@ public class Player extends GameObject {
     
     private void collision() {
         
-        for (GameObject gameObject : handler.object) {
+        for (GameObject gameObject : handler.getObjects()) {
             if (gameObject.getId() == ID.BasicEnemy || gameObject.getId() == ID.FastEnemy || gameObject.getId() == ID.SmartEnemy) {
                 if (this.getBounds().intersects(gameObject.getBounds())){
                     Hud.HEALTH -= 2;

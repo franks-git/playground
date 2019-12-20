@@ -10,6 +10,9 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
 
+import com.kaswiner.game1.object.BasicEnemy;
+import com.kaswiner.game1.object.Player;
+
 /**
  *
  * @author Franklin

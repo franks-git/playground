@@ -3,33 +3,32 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.kaswiner.game1;
+package com.kaswiner.game1.object;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 
+import com.kaswiner.game1.Game1;
+import com.kaswiner.game1.GameObject;
+import com.kaswiner.game1.Handler;
+import com.kaswiner.game1.ID;
+
 /**
  *
  * @author Franklin
  */
-public class SmartEnemy extends GameObject {
+public class FastEnemy extends GameObject {
     
     private Handler handler;
-    private GameObject player;
 
-    public SmartEnemy(float x, float y, ID id, Handler handler) {
+    public FastEnemy(int x, int y, ID id, Handler handler) {
         super(x, y, id);
         
         this.handler = handler;
         
-        for (GameObject tempHandler : this.handler.object) {
-            if (tempHandler.id == ID.Player) {
-                player = tempHandler;
-            }
-            
-        }
-        
+        this.setVelX(2);
+        this.setVelY(9);
     }
 
     @Override
@@ -41,13 +40,6 @@ public class SmartEnemy extends GameObject {
     public void tick() {
         x += velX;
         y += velY;
-        
-        float diffX = x - player.getX() - 8;
-        float diffY = y - player.getY() - 8;
-        float distance = (float) Math.sqrt((x-player.getX())*(x-player.getX()) + (y-player.getVelY()) * (y-player.getY()));
-        
-        velX = (int)((-1.0/distance) * diffX);
-        velY = (int)((-1.0/distance) * diffY);
         
         if (y <= 0 || y >= Game1.HEIGHT - 32) {
             this.setVelY(this.getVelY() * -1);
@@ -62,7 +54,7 @@ public class SmartEnemy extends GameObject {
         
     @Override
     public void render(Graphics g) {
-        g.setColor(Color.green);
+        g.setColor(Color.cyan);
         g.fillRect((int)x, (int)y, 16, 16);
     }
     

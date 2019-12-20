@@ -3,27 +3,32 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.kaswiner.game1;
+package com.kaswiner.game1.object;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 
+import com.kaswiner.game1.Game1;
+import com.kaswiner.game1.GameObject;
+import com.kaswiner.game1.Handler;
+import com.kaswiner.game1.ID;
+
 /**
  *
  * @author Franklin
  */
-public class FastEnemy extends GameObject {
+public class BasicEnemy extends GameObject {
     
     private Handler handler;
 
-    public FastEnemy(int x, int y, ID id, Handler handler) {
+    public BasicEnemy(int x, int y, ID id, Handler handler) {
         super(x, y, id);
         
         this.handler = handler;
         
-        this.setVelX(2);
-        this.setVelY(9);
+        this.setVelX(5);
+        this.setVelY(5);
     }
 
     @Override
@@ -49,7 +54,7 @@ public class FastEnemy extends GameObject {
         
     @Override
     public void render(Graphics g) {
-        g.setColor(Color.cyan);
+        g.setColor(Color.red);
         g.fillRect((int)x, (int)y, 16, 16);
     }
     

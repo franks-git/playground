@@ -30,7 +30,7 @@ public class KeyInput extends KeyAdapter {
     public void keyPressed(KeyEvent e) {
         int key = e.getKeyCode();
         
-        for (GameObject gameObject : this.handler.object) {
+        for (GameObject gameObject : this.handler.objects) {
             
             if (gameObject.getId() == ID.Player) {
                 if (key == KeyEvent.VK_UP) {
@@ -70,22 +70,18 @@ public class KeyInput extends KeyAdapter {
     public void keyReleased(KeyEvent e) {
         int key = e.getKeyCode();
         
-        for (GameObject gameObject : this.handler.object) {
+        for (GameObject gameObject : this.handler.objects) {
             
             if (gameObject.getId() == ID.Player) {
                 
                 if (key == KeyEvent.VK_UP) {
                     keyDownP1[0] = false;
-                    //gameObject.setVelY(0);
                 } else if (key == KeyEvent.VK_DOWN) {
                     keyDownP1[1] = false;
-                    //gameObject.setVelY(0);
                 } else if (key == KeyEvent.VK_RIGHT) {
                     keyDownP1[2] = false;
-                    //gameObject.setVelX(0);
                 } else if (key == KeyEvent.VK_LEFT) {
                     keyDownP1[3] = false;
-                    //gameObject.setVelX(0);
                 }
 
                 if (!keyDownP1[0] && !keyDownP1[1]) {
@@ -100,16 +96,12 @@ public class KeyInput extends KeyAdapter {
                 
                 if (key == KeyEvent.VK_W) {
                     keyDownP1[0] = false;
-                    //gameObject.setVelY(0);
                 } else if (key == KeyEvent.VK_S) {
                     keyDownP1[1] = false;
-                    //gameObject.setVelY(0);
                 } else if (key == KeyEvent.VK_D) {
                     keyDownP1[2] = false;
-                    //gameObject.setVelX(0);
                 } else if (key == KeyEvent.VK_A) {
                     keyDownP1[3] = false;
-                    //gameObject.setVelX(0);
                 }
 
                 if (!keyDownP2[0] && !keyDownP2[1]) {

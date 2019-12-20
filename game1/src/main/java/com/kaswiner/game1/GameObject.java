@@ -14,9 +14,9 @@ import java.awt.Rectangle;
  */
 public abstract class GameObject {
     
+    protected ID id;
     protected float x;
     protected float y;
-    protected ID id;
     protected float velX;
     protected float velY;
     

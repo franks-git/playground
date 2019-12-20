@@ -7,6 +7,10 @@ package com.kaswiner.game1;
 
 import java.util.Random;
 
+import com.kaswiner.game1.object.BasicEnemy;
+import com.kaswiner.game1.object.FastEnemy;
+import com.kaswiner.game1.object.SmartEnemy;
+
 /**
  *
  * @author Franklin
