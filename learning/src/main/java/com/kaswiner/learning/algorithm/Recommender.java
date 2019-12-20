@@ -1,4 +1,4 @@
-package com.learn.algorithm;
+package com.kaswiner.learning.algorithm;
 
 public class Recommender {
 

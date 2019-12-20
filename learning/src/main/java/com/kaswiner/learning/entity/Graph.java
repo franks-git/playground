@@ -1,4 +1,4 @@
-package com.learn.entity;
+package com.kaswiner.learning.entity;
 
 import java.util.List;
 

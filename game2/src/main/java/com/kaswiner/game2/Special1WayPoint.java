@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package game2;
+package com.kaswiner.game2;
 
 import java.awt.AlphaComposite;
 import java.awt.Color;

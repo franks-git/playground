@@ -1,4 +1,4 @@
-package com.learn.entity;
+package com.kaswiner.learning.entity;
 
 public class HTransition {
 	private int id;

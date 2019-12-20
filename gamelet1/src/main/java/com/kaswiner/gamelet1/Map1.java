@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gamelet1;
+package com.kaswiner.gamelet1;
 
-import static gamelet1.Window.HEIGHT;
-import static gamelet1.Window.WIDTH;
+import static com.kaswiner.gamelet1.Window.HEIGHT;
+import static com.kaswiner.gamelet1.Window.WIDTH;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;

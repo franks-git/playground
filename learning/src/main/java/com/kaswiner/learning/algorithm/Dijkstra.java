@@ -1,4 +1,4 @@
-package com.learn.algorithm;
+package com.kaswiner.learning.algorithm;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.learn.entity.Graph;
-import com.learn.entity.State;
-import com.learn.entity.Transition;
+import com.kaswiner.learning.entity.Graph;
+import com.kaswiner.learning.entity.State;
+import com.kaswiner.learning.entity.Transition;
 
 public class Dijkstra {
 	private List<State> states;
@@ -40,7 +40,6 @@ public class Dijkstra {
 			this.closedStates.add(state);
 			this.findMinimalDistance(state);
 		}
-		
 	}
 	
 	public void findMinimalDistance(State state) {
@@ -117,9 +116,10 @@ public class Dijkstra {
 		return this.closedStates.contains(state);
 	}
 	
+	// TODO finish the implementation
 	public LinkedList<State> getPath(State state) {
 		LinkedList<State> path = new LinkedList<>();
 		
-		
+		return null;
 	}
 }
