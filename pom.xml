@@ -4,4 +4,9 @@
   <artifactId>playground</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <modules>
+  	<module>textSearching01</module>
+  	<module>rssReader01</module>
+  	<module>htmlParser</module>
+  </modules>
 </project>
