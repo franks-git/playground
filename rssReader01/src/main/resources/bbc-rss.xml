@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - Home]]></title>
+        <description><![CDATA[BBC News - Home]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Home</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 08 Jan 2020 14:01:51 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Iran attack: US troops targeted with ballistic missiles]]></title>
+            <description><![CDATA[The strikes on two bases in Iraq were retaliation for the US killing of General Qasem Soleimani.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-51028954</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-51028954</guid>
+            <pubDate>Wed, 08 Jan 2020 12:37:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iran attack: Prime Minister Boris Johnson condemns missile strike]]></title>
+            <description><![CDATA[PM warns against "reckless" attacks and says a general killed by the US had British "blood on his hands".]]></description>
+            <link>https://www.bbc.co.uk/news/uk-51035602</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-51035602</guid>
+            <pubDate>Wed, 08 Jan 2020 14:00:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iran plane crash: Ukraine International Airline jet crashes killing 176]]></title>
+            <description><![CDATA[Many on board the Ukraine International Airlines flight were Iranian and Canadian nationals.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-51029994</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-51029994</guid>
+            <pubDate>Wed, 08 Jan 2020 13:02:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iran crash: Three British nationals among dead in Ukrainian plane crash]]></title>
+            <description><![CDATA[They were on board the flight from Tehran to Kyiv which crashed in Iran just after take-off.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-51032651</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-51032651</guid>
+            <pubDate>Wed, 08 Jan 2020 12:06:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Aftermath of Ukrainian passenger plane crash in Iran]]></title>
+            <description><![CDATA[Officials say there were more than 170 people on board the Ukrainian Boeing-737 and that none survived.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-51031521</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-51031521</guid>
+            <pubDate>Wed, 08 Jan 2020 07:20:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brexit: Full UK-EU trade deal 'impossible' by deadline - von der Leyen]]></title>
+            <description><![CDATA[The EU Commission president says the sides will have to prioritise areas to agree on by the end of 2020.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-51028614</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-51028614</guid>
+            <pubDate>Wed, 08 Jan 2020 13:18:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Manchester City Council set to adopt Martyn's Law early]]></title>
+            <description><![CDATA[Venues will be asked to make tougher checks after a campaign by the Arena bomb victim's mum.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-manchester-51033162</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-manchester-51033162</guid>
+            <pubDate>Wed, 08 Jan 2020 13:04:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ugly Betty creator Silvio Horta dies aged 45]]></title>
+            <description><![CDATA[Star actress America Ferrera leads the tributes saying she is "stunned and heartbroken".]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-51032311</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-51032311</guid>
+            <pubDate>Wed, 08 Jan 2020 09:42:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Greggs staff to get £300 bonus after 'phenomenal year']]></title>
+            <description><![CDATA[The bakery chain says its "now iconic" vegan sausage roll helped boost sales.]]></description>
+            <link>https://www.bbc.co.uk/news/business-51034201</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-51034201</guid>
+            <pubDate>Wed, 08 Jan 2020 13:06:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['Real-life Hustler' Samantha Barbash sues over Jennifer Lopez film]]></title>
+            <description><![CDATA[The woman who inspired J-Lo's character in Hustlers sues the movie's makers for $40m.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-51032332</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-51032332</guid>
+            <pubDate>Wed, 08 Jan 2020 11:49:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Homicides fall for first time in five years across UK despite London rise]]></title>
+            <description><![CDATA[Last year saw killings across the UK fall but London's level rise to its highest since 2008.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-50925024</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-50925024</guid>
+            <pubDate>Wed, 08 Jan 2020 10:12:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Labour leadership: Sir Keir Starmer secures support to run]]></title>
+            <description><![CDATA[The shadow minister achieves the requisite 23 nominations, as candidates for deputy make their pitches.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-51035448</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-51035448</guid>
+            <pubDate>Wed, 08 Jan 2020 13:54:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mass cull for thousands of Australian camels]]></title>
+            <description><![CDATA[Feral camels and horses will be shot dead as they are damaging settlements in search of water.]]></description>
+            <link>https://www.bbc.co.uk/news/newsbeat-51032145</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-51032145</guid>
+            <pubDate>Wed, 08 Jan 2020 11:59:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Christopher Beeny: Upstairs, Downstairs actor dies at 78]]></title>
+            <description><![CDATA[Christopher Beeny also starred in TV sitcoms Last of the Summer Wine and In Loving Memory.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-51035015</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-51035015</guid>
+            <pubDate>Wed, 08 Jan 2020 12:19:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What we know about the attacked bases]]></title>
+            <description><![CDATA[Iran fired rockets at two US bases - including one that used to resemble a "US suburban town".]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-51029675</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-51029675</guid>
+            <pubDate>Wed, 08 Jan 2020 04:39:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Crude oil prices rise after attacks]]></title>
+            <description><![CDATA[Iran said the attacks were in retaliation for the death of the country's top commander Qasem Soleimani.]]></description>
+            <link>https://www.bbc.co.uk/news/business-50979492</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-50979492</guid>
+            <pubDate>Wed, 08 Jan 2020 05:39:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Reality Check: How strong is Iran's military?]]></title>
+            <description><![CDATA[Iran has struck at air bases housing US forces in Iraq in retaliation for the killing of a top general - what military forces does Iran have?]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-50982743</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-50982743</guid>
+            <pubDate>Wed, 08 Jan 2020 09:44:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Explainer: The US, Iran and Soleimani]]></title>
+            <description><![CDATA[Iran's most powerful general was killed by the US, escalating tensions. Here's what you need to know.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-51018120</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-51018120</guid>
+            <pubDate>Tue, 07 Jan 2020 14:08:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Reality Check: Soleimani's assassination and the law]]></title>
+            <description><![CDATA[The US says it acted to prevent future Iranian attacks, but what are the legal grounds for this?]]></description>
+            <link>https://www.bbc.co.uk/news/world-51007961</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-51007961</guid>
+            <pubDate>Tue, 07 Jan 2020 13:58:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Analysis: Why crowds turned out for Soleimani's funeral]]></title>
+            <description><![CDATA[Iranians flocked to the burial of a top commander killed in a US drone strike. Here's why.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-51021854</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-51021854</guid>
+            <pubDate>Tue, 07 Jan 2020 16:19:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[In pictures: Skiing against a painted sky]]></title>
+            <description><![CDATA[Photographer Corinne Rozotte's pictures showing the increasing popularity of winter sports in China.]]></description>
+            <link>https://www.bbc.co.uk/news/in-pictures-50814408</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-50814408</guid>
+            <pubDate>Wed, 08 Jan 2020 02:43:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['Girl boss' advert banned for gender stereotyping]]></title>
+            <description><![CDATA[A ban on adverts featuring "harmful gender stereotypes" came into force last June.]]></description>
+            <link>https://www.bbc.co.uk/news/business-51032631</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-51032631</guid>
+            <pubDate>Wed, 08 Jan 2020 10:23:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Food 'made from air' could compete with soya]]></title>
+            <description><![CDATA[Finnish scientists say the food could be grown with near-zero greenhouse gas emissions.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-51019798</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-51019798</guid>
+            <pubDate>Wed, 08 Jan 2020 00:43:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dog found in Blackpool church to be returned to owner]]></title>
+            <description><![CDATA[The seven-year-old Staffie was left by his owner, who said she could not afford to care for him.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-lancashire-51035171</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-lancashire-51035171</guid>
+            <pubDate>Wed, 08 Jan 2020 11:46:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CEO Secrets: The boss who likes to hotdesk with his workers]]></title>
+            <description><![CDATA[CEO Secrets meets the boss who likes to hotdesk with his workforce.]]></description>
+            <link>https://www.bbc.co.uk/news/business-50976589</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-50976589</guid>
+            <pubDate>Wed, 08 Jan 2020 00:12:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Travelex customer: My money is in limbo]]></title>
+            <description><![CDATA[The criminals behind the hack told the BBC they are demanding $6m (£4.6m) from the currency trader.]]></description>
+            <link>https://www.bbc.co.uk/news/business-51026383</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-51026383</guid>
+            <pubDate>Wed, 08 Jan 2020 06:56:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Reynhard Sinaga: How will Manchester rapist case change the city?]]></title>
+            <description><![CDATA[How the city's reacting after the jailing of the worst rapist in British legal history, Reynhard Sinaga.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-51024174</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-51024174</guid>
+            <pubDate>Wed, 08 Jan 2020 07:11:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Venezuela's opposition leader forces way into parliament]]></title>
+            <description><![CDATA[Venezuela's opposition leader breaks through a cordon of troops to enter the National Assembly after being blocked days earlier.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-51026584</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-51026584</guid>
+            <pubDate>Tue, 07 Jan 2020 22:07:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Chico Mendes: The Brazilian environmental activist killed for trying to save the Amazon]]></title>
+            <description><![CDATA[Brazilian environmental activist Chico Mendes was shot dead by cattle farmers angered by his efforts to save the rainforest.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-51021984</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-51021984</guid>
+            <pubDate>Wed, 08 Jan 2020 01:12:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Drink spiking: Do men know enough?]]></title>
+            <description><![CDATA[The vast majority of victims are women, but Reynhard Sinaga's case shows that men are at risk too.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-51021314</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-51021314</guid>
+            <pubDate>Tue, 07 Jan 2020 18:01:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BBC Sound of 2020: Band formed 'on a whim in the pub' are the runners-up]]></title>
+            <description><![CDATA[Mixing wonky hip-hop, psychedelic jazz and woozy pop, Easy Life are being tipped for success.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-51006885</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-51006885</guid>
+            <pubDate>Wed, 08 Jan 2020 01:10:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why is my train often late?]]></title>
+            <description><![CDATA[The challenge can be summarised in two simple words: punctuality and overcrowding.]]></description>
+            <link>https://www.bbc.co.uk/news/business-51026379</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-51026379</guid>
+            <pubDate>Wed, 08 Jan 2020 00:01:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Australia fires: How the world has responded to the crisis]]></title>
+            <description><![CDATA[The crisis has reverberated globally, with celebrities and ordinary citizens trying to help.]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-51024904</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-51024904</guid>
+            <pubDate>Wed, 08 Jan 2020 12:28:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The man who got rich on data - years before Google]]></title>
+            <description><![CDATA[Often called the "new oil", data is immensely valuable - but only if processed in the right way.]]></description>
+            <link>https://www.bbc.co.uk/news/business-50578234</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-50578234</guid>
+            <pubDate>Wed, 08 Jan 2020 00:12:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Does music make exercise more effective?]]></title>
+            <description><![CDATA[Trust Me I'm a Doctor looks at whether moving to a fast beat improves the effects of activity.]]></description>
+            <link>https://www.bbc.co.uk/news/health-51024034</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-51024034</guid>
+            <pubDate>Wed, 08 Jan 2020 01:06:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bafta 2020: Do awards exclude women and black actors?]]></title>
+            <description><![CDATA[The Baftas have been criticised for a lack of diversity in nominations for awards this year]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-51021234</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-51021234</guid>
+            <pubDate>Tue, 07 Jan 2020 17:35:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cyprus false rape claim trial: The women rallying for British teenager]]></title>
+            <description><![CDATA[Protesters explain why they are backing a British woman found guilty of lying about being raped.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-51027877</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-51027877</guid>
+            <pubDate>Tue, 07 Jan 2020 23:12:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Five-day Tests are precious, says England cricket boss Giles]]></title>
+            <description><![CDATA[England director of men's cricket Ashley Giles says five-day Tests are "precious" to him and the players.]]></description>
+            <link>https://www.bbc.co.uk/sport/cricket/51032166</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/51032166</guid>
+            <pubDate>Wed, 08 Jan 2020 12:01:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Police investigating after fall leaves skater in 'life-threatening condition']]></title>
+            <description><![CDATA[Police are investigating after a performer was left in a life-threatening condition following a fall during rehearsals for the Winter Youth Olympic Games opening ceremony in Switzerland.]]></description>
+            <link>https://www.bbc.co.uk/sport/winter-sports/51035122</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/winter-sports/51035122</guid>
+            <pubDate>Wed, 08 Jan 2020 12:00:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Women's event in Brisbane 'second-hand' because of men's ATP Cup - Sharapova]]></title>
+            <description><![CDATA[Maria Sharapova says the women's Brisbane International feels like a "second-hand" event because the men's ATP Cup has taken over centre court.]]></description>
+            <link>https://www.bbc.co.uk/sport/tennis/51031509</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/tennis/51031509</guid>
+            <pubDate>Wed, 08 Jan 2020 11:08:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['The worst we have played this season' - Man Utd boss Solskjaer on first-leg loss]]></title>
+            <description><![CDATA[Manchester United boss Ole Gunnar Solskjaer says his side hit a season low point in the EFL Cup loss to Manchester City.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/51028921</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/51028921</guid>
+            <pubDate>Tue, 07 Jan 2020 23:51:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stefanos Tsitsipas told off by mum after hitting dad with racquet]]></title>
+            <description><![CDATA[Stefanos Tsitsipas is told off by his mum after his angry outburst injures his father in an ATP Cup match against Nick Kyrgios.]]></description>
+            <link>https://www.bbc.co.uk/sport/av/tennis/51034431</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/av/tennis/51034431</guid>
+            <pubDate>Wed, 08 Jan 2020 10:26:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A tale of two pass interference calls - Osi Umenyiora & Jason Bell disagree]]></title>
+            <description><![CDATA[Jason Bell and Osi Umenyiora analyse Kyle Ruldoph's touchdown for the Minnesota Vivings and a Jacob Hollister catch for the Seattle Seahawks and discuss the pass interference rules in the NFL.]]></description>
+            <link>https://www.bbc.co.uk/sport/av/american-football/51033514</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/av/american-football/51033514</guid>
+            <pubDate>Wed, 08 Jan 2020 13:17:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[‘I want to be racing on the biggest stage’ - two-time champion Brownlee targets Olympic comeback]]></title>
+            <description><![CDATA[Alistair Brownlee, against all odds and expectations, is targeting a comeback for one final heist in the triathlon at Tokyo 2020.]]></description>
+            <link>https://www.bbc.co.uk/sport/olympics/51021574</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/olympics/51021574</guid>
+            <pubDate>Wed, 08 Jan 2020 06:35:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CES 2020: Ivanka Trump unfazed by critics at tech show]]></title>
+            <description><![CDATA[Ms Trump's invitation to CES had been controversial - but her appearance proved not so.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-51028984</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-51028984</guid>
+            <pubDate>Wed, 08 Jan 2020 01:07:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CES 2020: Juno 'reverse microwave oven' cools drinks in seconds]]></title>
+            <description><![CDATA[The device rapidly chills packaged drinks meaning they do not need to be refrigerated before use.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-51028494</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-51028494</guid>
+            <pubDate>Tue, 07 Jan 2020 20:30:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CES 2020: Manta5's electric bike rides on water]]></title>
+            <description><![CDATA[After nearly a decade's research, a hydrofoil water bike has gone into mass production.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-51029492</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-51029492</guid>
+            <pubDate>Wed, 08 Jan 2020 02:28:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CES 2020: Neon's artificial humans 'don't live up to hype']]></title>
+            <description><![CDATA[There was huge interest in the virtual avatars created by Samsung-backed start-up Neon.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-51028990</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-51028990</guid>
+            <pubDate>Wed, 08 Jan 2020 03:09:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CES 2020: Concept cars of the future shown off in Vegas]]></title>
+            <description><![CDATA[A wide range of futuristic vehicles, including flying machines, has parked up at the CES tech show.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-51030022</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-51030022</guid>
+            <pubDate>Wed, 08 Jan 2020 05:07:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Reynhard Sinaga: How the Manchester rapist found his victims]]></title>
+            <description><![CDATA[For several years, until he was caught in 2017, Reynhard Sinaga preyed on young men enjoying a night out.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-50688975</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-50688975</guid>
+            <pubDate>Mon, 06 Jan 2020 17:45:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Confessions of a slaughterhouse worker]]></title>
+            <description><![CDATA[A former abattoir worker describes her job and the effect it had on her mental health.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-50986683</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-50986683</guid>
+            <pubDate>Mon, 06 Jan 2020 01:18:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Val d'Isere: The doctor who hid a Jewish girl - and the resort that wants to forget]]></title>
+            <description><![CDATA[A hidden story of wartime bravery in an Alpine resort, which some local people are reluctant to remember.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-50828696</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-50828696</guid>
+            <pubDate>Sun, 05 Jan 2020 00:42:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Did Britain meddle in a US presidential election?]]></title>
+            <description><![CDATA[When President Bush needed a smoking gun on his rival Bill Clinton, a key US ally dug for dirt.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-50752217</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-50752217</guid>
+            <pubDate>Mon, 06 Jan 2020 00:44:56 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
