@@ -8,5 +8,6 @@
   	<module>textSearching01</module>
   	<module>rssReader01</module>
   	<module>htmlParser</module>
+  	<module>Connectors</module>
   </modules>
 </project>

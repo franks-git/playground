@@ -1,0 +1,246 @@
+<rss
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+	<channel>
+		<atom:link href="http://feed.cnet.com/feed/news" rel="self" type="application/rss+xml" />
+		<title>CNET News</title>
+		<description>CNET news editors and reporters provide top technology news, with investigative reporting and in-depth coverage of tech issues and events.</description>
+		<image>
+			<url>http://i.i.cbsi.com/cnwk.1d/i/ne/gr/prtnr/CNET_Logo_150.gif</url>
+			<title>CNET News</title>
+			<link>
+				<![CDATA[ https://www.cnet.com/#ftag=CAD590a51e ]]>
+			</link>
+		</image>
+		<link>
+			<![CDATA[ https://www.cnet.com/#ftag=CAD590a51e ]]>
+		</link>
+		<item>
+			<title>Apple says its App Store hit new records in 2019     - CNET</title>
+			<link>https://www.cnet.com/news/apple-says-its-app-store-hit-new-records-in-2019/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">3c1ae310-8777-4a77-925d-aa987517de79</guid>
+			<pubDate>Wed, 08 Jan 2020 11:00:05 +0000</pubDate>
+			<description>The tech giant says app sales between Christmas Eve and New Year&#039;s in 2019 grew 16% over the past year.</description>
+			<media:thumbnail url="https://cnet4.cbsistatic.com/img/T_TEk6x7ZpELWC1CBQ1QpHdk9kc=/300x0/2019/11/22/230eaa90-b1f5-40f0-a1ed-57493086c77b/apple-iphone-11-5.jpg"/>
+			<dc:creator>Ian Sherr</dc:creator>
+		</item>
+		<item>
+			<title>Here&#039;s Ford Mustang Shelby GT500 VIN 001 that raised $1.1 million for charity     - Roadshow</title>
+			<link>https://www.cnet.com/roadshow/news/ford-mustang-shelby-gt500-vin-001-charity-barrett-jackson/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">adf8d0e6-0678-4998-971f-3b4a95a47a3a</guid>
+			<pubDate>Wed, 08 Jan 2020 11:00:01 +0000</pubDate>
+			<description>The first production Shelby GT500 will be on display at the Barrett-Jackson Scottsdale auction this month.</description>
+			<media:thumbnail url="https://cnet4.cbsistatic.com/img/UHxsvtFQqiThvHj_8Btj5GY1MYM=/300x0/2020/01/08/d6b478ba-fa76-46cb-99f4-5b0c08adf1c8/ford-mustang-shelby-gt500-vin-001-001.jpg"/>
+			<dc:creator>Steven Ewing</dc:creator>
+		</item>
+		<item>
+			<title>TikTok flaws could have let hackers text you malware     - CNET</title>
+			<link>https://www.cnet.com/news/tiktok-flaws-could-have-let-hackers-text-you-malware/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">748b2790-6070-47b5-8097-7153ba527569</guid>
+			<pubDate>Wed, 08 Jan 2020 10:00:07 +0000</pubDate>
+			<description>Don&#039;t worry. They&#039;ve been patched.</description>
+			<media:thumbnail url="https://cnet1.cbsistatic.com/img/Acagsnb5j3pTv_jntyDL1DWQXFw=/300x0/2019/11/19/be2308ed-a0c3-4229-8517-d7d0719f4411/tik-tok-video-4976.jpg"/>
+			<dc:creator>Laura Hautala</dc:creator>
+		</item>
+		<item>
+			<title>Mercedes-Benz Vision AVTR is Pandora on four wheels     - Roadshow</title>
+			<link>https://www.cnet.com/roadshow/pictures/mercedes-benz-vision-avtr-ces-2020/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">46f71a88-62a6-48eb-882c-2987cadb8e6d</guid>
+			<pubDate>Wed, 08 Jan 2020 05:00:01 +0000</pubDate>
+			<description>You&#039;ve never seen a more organic concept than this.</description>
+			<media:thumbnail url="https://cnet4.cbsistatic.com/img/MUaDeiZmGqhrKkw1q0-g8LrivHk=/300x0/2020/01/07/81901bfe-b30a-4c92-a151-d01d6cbd4eed/mercedes-benz-vision-avtr-concept-002.jpg"/>
+			<dc:creator>Tim Stevens</dc:creator>
+		</item>
+		<item>
+			<title>At CES 2020, stroke survivors can have rehab that&#039;s fun and engaging     - CNET</title>
+			<link>https://www.cnet.com/news/at-ces-2020-stroke-survivors-can-have-rehab-thats-fun-and-engaging-neofect-smart-balance/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">8b360763-9e69-4ab2-93e3-6acb959c166b</guid>
+			<pubDate>Wed, 08 Jan 2020 04:53:35 +0000</pubDate>
+			<description>Neofect Smart Balance is a Dance Dance Revolution-like device for rehabilitation of your legs, balance and posture</description>
+			<media:thumbnail url="https://cnet3.cbsistatic.com/img/oRHK_nf-ZgO42INEOdsoJ05guPQ=/300x0/2020/01/06/a84d950b-2366-40ed-bb88-3b2f825c48ea/img-8577.jpg"/>
+			<dc:creator>Patrick Holland</dc:creator>
+		</item>
+		<item>
+			<title>Forget the Asus ROG Phone 2 -- this gaming phone has ridiculous specs     - CNET</title>
+			<link>https://www.cnet.com/news/forget-asus-rog-phone-2-xiaomi-black-shark-2-pro-gaming-phone-ridiculous-specs/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">698bc09f-69a8-4b3d-89ea-94936b6b8033</guid>
+			<pubDate>Wed, 08 Jan 2020 04:51:00 +0000</pubDate>
+			<description>The powerful Black Shark 2 Pro gaming phone from Xiaomi makes a rare US appearance at CES, and we got to spend a little time with it.</description>
+			<media:thumbnail url="https://cnet2.cbsistatic.com/img/FWqLoqI91kZTLEhzXw_8j6y5fQ8=/300x0/2020/01/07/44be08cb-f9f5-4033-abfa-b6246650b8cb/ces-2020-pepcom-blackshark-5823.jpg"/>
+			<dc:creator>Patrick Holland</dc:creator>
+		</item>
+		<item>
+			<title>Boeing now says 737 Max pilots need simulator time     - CNET</title>
+			<link>https://www.cnet.com/news/boeing-says-737-max-pilots-need-simulator-training/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">75f9cdea-7641-49fc-89b6-98b6b64db11f</guid>
+			<pubDate>Wed, 08 Jan 2020 03:40:12 +0000</pubDate>
+			<description>The recommendation is a reversal from the company&#039;s previous position that existing 737 crews needed only iPad-based training to fly the plane.</description>
+			<media:thumbnail url="https://cnet1.cbsistatic.com/img/IUgXW18uJTNfhlSq-Vw_Ax3zb5s=/300x0/2017/06/20/6d0f7eb6-a342-4e20-a8bb-d948de1f6dba/boeing-737-max-9-pas-1.jpg"/>
+			<dc:creator>Kent German</dc:creator>
+		</item>
+		<item>
+			<title>This mop and vacuum robot cleans itself so you don&#039;t have to     - CNET</title>
+			<link>https://www.cnet.com/news/this-mop-and-vacuum-robot-cleans-itself-so-you-dont-have-to/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">c26a8b09-da00-4485-ba37-3c288824c397</guid>
+			<pubDate>Wed, 08 Jan 2020 03:06:00 +0000</pubDate>
+			<description>Narwal wants to give Roomba a run for its money with a self-cleaning feature.</description>
+			<media:thumbnail url="https://cnet2.cbsistatic.com/img/oFf3Thz66Dpdj-t50komLTfKXwk=/300x0/2020/01/08/244a08a7-548e-427c-87e6-f0ebdeb197c9/dsc05691-01.jpg"/>
+			<dc:creator>Alison DeNisco Rayome</dc:creator>
+		</item>
+		<item>
+			<title>CES 2020 day 2: Watch our livestream from Vegas, all day Wednesday     - CNET</title>
+			<link>https://www.cnet.com/news/ces-2020-day-2-join-us-live-from-las-vegas/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">9ea481d1-1edf-4e2d-ae4b-d1e54867f2cf</guid>
+			<pubDate>Wed, 08 Jan 2020 03:00:01 +0000</pubDate>
+			<description>CES is still going strong, and CNET has another full day of live programming so you can see it all.</description>
+			<media:thumbnail url="https://cnet3.cbsistatic.com/img/oUcEy_uUWnbVOEuimTkh3en3rUw=/300x0/2020/01/05/b827824c-baa0-43ac-b29b-9b5ce2d8ffc8/img-9651.jpg"/>
+			<dc:creator>John Falcone</dc:creator>
+		</item>
+		<item>
+			<title>The PlayStation 5 logo reveal was the biggest flex of CES 2020     - CNET</title>
+			<link>https://www.cnet.com/news/the-playstation-5-logo-reveal-was-the-biggest-flex-of-ces-2020/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">c15e215f-e504-4cff-b56a-ad6ff419f75f</guid>
+			<pubDate>Wed, 08 Jan 2020 02:22:00 +0000</pubDate>
+			<description>Commentary: It was a flex so savage it bent space and time.</description>
+			<media:thumbnail url="https://cnet4.cbsistatic.com/img/uS22jrvKgy4gQ_5f6vOmeeDag4k=/300x0/2020/01/07/fb9cf236-763c-45f6-b59b-4f546feeafd5/ps5-thumb.jpg"/>
+			<dc:creator>Mark Serrels</dc:creator>
+		</item>
+		<item>
+			<title>At CES 2020, Verizon vows to release 20 5G devices this year     - CNET</title>
+			<link>https://www.cnet.com/news/at-ces-2020-verizon-vows-to-release-20-5g-devices-this-year/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">12ccb21a-d6b0-4316-a63b-63cf4ce8511c</guid>
+			<pubDate>Wed, 08 Jan 2020 02:14:00 +0000</pubDate>
+			<description>Ronan Dunne, the CEO of Verizon Wireless, tells CNET that some of these devices will arrive below $600.</description>
+			<media:thumbnail url="https://cnet1.cbsistatic.com/img/ZJUelAIxUS_mSOdij4KZwhWn5Dc=/300x0/2019/07/18/eecb4acd-89c7-4554-91dd-27cca85a325d/verizon-5g7718.jpg"/>
+			<dc:creator>Roger Cheng</dc:creator>
+		</item>
+		<item>
+			<title>Toyota&#039;s Woven City project looks amazing in these renderings     - Roadshow</title>
+			<link>https://www.cnet.com/roadshow/pictures/toyota-woven-city-future-ces/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">f2976095-f5f6-46ad-88d3-8f440710d38c</guid>
+			<pubDate>Wed, 08 Jan 2020 01:57:23 +0000</pubDate>
+			<description>This town is intended to be a settlement of the future -- one that&#039;s green, smart and super connected.</description>
+			<media:thumbnail url="https://cnet1.cbsistatic.com/img/InlT3l55TG-L7o82j9Bm11vVBdI=/300x0/2020/01/07/0a5dd579-cefd-4b6b-8a14-7396665f161c/toyota-woven-city-main-art-gallery.jpg"/>
+			<dc:creator>Craig Cole</dc:creator>
+		</item>
+		<item>
+			<title>Ivanka Trump says she&#039;s &#039;a big believer in innovation&#039; at CES 2020 amid controversy     - CNET</title>
+			<link>https://www.cnet.com/news/ivanka-trump-is-at-ces-2020-heres-everything-she-said-about-tech/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">df8267b3-0301-49c7-8264-fe178bbf3762</guid>
+			<pubDate>Wed, 08 Jan 2020 01:52:00 +0000</pubDate>
+			<description>The president&#039;s daughter and advisor to the Trump administration made an appearance at the biggest consumer tech show in the world.</description>
+			<media:thumbnail url="https://cnet4.cbsistatic.com/img/8JX6-Sw2-Wt_n1wdE-RlhiDPs_w=/300x0/2020/01/07/0aec05a1-e792-4b30-98ea-61dd74369db4/ivanka-trump-ces-2020-keynote.jpg"/>
+			<dc:creator>Corinne Reichert</dc:creator>
+		</item>
+		<item>
+			<title>Moodify wants you to follow your nose to safer driving     - Roadshow</title>
+			<link>https://www.cnet.com/roadshow/news/moodify-fragrances-safer-driving-ces-2020/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">3b4fc76b-ddc6-4ee4-b4ff-0e467409b9b6</guid>
+			<pubDate>Wed, 08 Jan 2020 01:44:54 +0000</pubDate>
+			<description>An Israeli company says it&#039;s figured out how to use special fragrances to block foul odors and even alter human behavior.</description>
+			<media:thumbnail url="https://cnet3.cbsistatic.com/img/_ayaF3SsY0oDJ9RqVQY6VrRapno=/300x0/2020/01/08/39424842-783c-40e9-aeec-d3c6b0b951d7/moodify-main-art.jpg"/>
+			<dc:creator>Craig Cole</dc:creator>
+		</item>
+		<item>
+			<title>Tomb Raider, Worms and other retro video games to appear on UK stamps     - CNET</title>
+			<link>https://www.cnet.com/news/tomb-raider-worms-and-other-retro-video-games-to-appear-on-uk-stamps/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">ae967740-0053-49ea-be45-5c985d059e0a</guid>
+			<pubDate>Wed, 08 Jan 2020 01:44:00 +0000</pubDate>
+			<description>Royal Mail stamps celebrate classic video games from UK designers.</description>
+			<media:thumbnail url="https://cnet2.cbsistatic.com/img/op3aSjk5BqrfD5VoA10BadtRNJ8=/300x0/2020/01/08/ce016b15-da8f-4dde-8f48-cb7bd10b2549/stamps-populous.jpg"/>
+			<dc:creator>Bonnie Burton</dc:creator>
+		</item>
+		<item>
+			<title>CES opens to more sex tech, Samsung&#039;s Neon chat bots and Ivanka Trump     - CNET</title>
+			<link>https://www.cnet.com/news/ces-opens-to-more-sex-tech-samsungs-chat-bots-and-ivanka-trump/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">2d8ef7cd-7f70-4b1d-afbc-9227af337d04</guid>
+			<pubDate>Wed, 08 Jan 2020 01:30:00 +0000</pubDate>
+			<description>And Google wants to dominate your smart home. Here&#039;s all the cool stuff from CES so far.</description>
+			<media:thumbnail url="https://cnet4.cbsistatic.com/img/IdKDZoXmyWW21ZhRzGHcJVwBEzc=/300x0/2020/01/07/d1203843-167a-4e98-8cdc-5c91ed7d9a15/neon-keynote-ces-2020-033.jpg"/>
+			<dc:creator>Kent German</dc:creator>
+		</item>
+		<item>
+			<title>At CES, Facebook argues it&#039;s just as good on privacy as Apple     - CNET</title>
+			<link>https://www.cnet.com/news/at-ces-facebook-argues-its-just-as-good-on-privacy-as-apple/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">754a5dc0-0f54-478f-8390-969746ec1c42</guid>
+			<pubDate>Wed, 08 Jan 2020 01:30:00 +0000</pubDate>
+			<description>A privacy panel at the giant tech conference underscores how crucial the topic has become.</description>
+			<media:thumbnail url="https://cnet2.cbsistatic.com/img/oqGuXDjeRR33mO3MoRCmECMcBMQ=/300x0/2020/01/08/fa906055-3b7a-4ff5-acb9-2c0e36266c17/ces-2020-privacy-panel-5954.jpg"/>
+			<dc:creator>Alfred Ng</dc:creator>
+		</item>
+		<item>
+			<title>Alienware Concept UFO shows why portable games are better than streaming (for now)     - CNET</title>
+			<link>https://www.cnet.com/news/alienware-concept-ufo-shows-why-portable-games-are-better-than-streaming-for-now/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">73a84f62-2d50-4620-8f31-fd279838ed31</guid>
+			<pubDate>Wed, 08 Jan 2020 01:01:00 +0000</pubDate>
+			<description>Commentary: The Switch Lite is cool, but have you ever tried a Switch Thicc?</description>
+			<media:thumbnail url="https://cnet1.cbsistatic.com/img/9XhQJvJA_keVHZcqNdCdePMJi6c=/300x0/2020/01/02/ee0faff3-0d1b-45fb-8ec9-171a5c9acd2a/08-alienware-concept-ufo-gaming-device.jpg"/>
+			<dc:creator>Daniel Van Boom</dc:creator>
+		</item>
+		<item>
+			<title>The Amazfit Bip is back at CES... along with earbuds and a treadmill     - CNET</title>
+			<link>https://www.cnet.com/news/the-amazfit-bip-is-back-at-ces-along-with-earbuds-and-a-treadmill/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">60624f40-77eb-4d06-9626-2419f87ac146</guid>
+			<pubDate>Wed, 08 Jan 2020 01:00:01 +0000</pubDate>
+			<description>Huami wants to be the next health tech powerhouse, starting with a lot of watches, earbuds and gym equipment.</description>
+			<media:thumbnail url="https://cnet4.cbsistatic.com/img/mrdORAIlQqaGtVAUjRjMKcdEfnU=/300x0/2020/01/07/6338b10a-a4a7-45d9-a86a-88d779dad92d/ces-2020-amazfit-5883.jpg"/>
+			<dc:creator>Scott Stein</dc:creator>
+		</item>
+		<item>
+			<title>CNET&#039;s CES 2020 Next Big Thing Panel focuses on anticipatory tech&#039;s wonders and dangers     - CNET</title>
+			<link>https://www.cnet.com/news/cnets-ces-2020-next-big-thing-panel-focuses-on-anticipatory-techs-wonders-and-dangers/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">f6238016-0d88-4d6b-abda-cfbb44ca9918</guid>
+			<pubDate>Wed, 08 Jan 2020 01:00:00 +0000</pubDate>
+			<description>Panelists from Google and other companies offer a sense of how smart home systems can work together and determine our needs before we do, but that&#039;s not always a good thing.</description>
+			<media:thumbnail url="https://cnet2.cbsistatic.com/img/ceCOSOXA6CxRrj4pnGaUlZZkPNE=/300x0/2020/01/08/444e2fbc-d2a7-4a0b-a418-6c8805952813/20200107-151711.jpg"/>
+			<dc:creator>Sean Keane</dc:creator>
+		</item>
+		<item>
+			<title>I chatted with a Neon avatar, and it doesn&#039;t yet live up to the hype     - CNET</title>
+			<link>https://www.cnet.com/news/i-chatted-with-a-neon-avatar-and-it-doesnt-yet-live-up-to-the-hype/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">872cc43c-e728-4c6a-8573-4dee35dd6176</guid>
+			<pubDate>Wed, 08 Jan 2020 00:54:00 +0000</pubDate>
+			<description>I saw the first public demo of the lifelike avatar from Samsung, and it was choppy. I even got to talk with a Neon avatar. There&#039;s lots of reasons for both doubt and optimism.</description>
+			<media:thumbnail url="https://cnet4.cbsistatic.com/img/hYVZXKHz7RcqG-NKXHGCNG152ww=/300x0/2020/01/07/775a5819-1170-42c2-bd77-21a9b97f3d43/neon-keynote-ces-2020-060.jpg"/>
+			<dc:creator>Andrew Gebhart</dc:creator>
+		</item>
+		<item>
+			<title>CES 2020: All of the new smart home products, from smart locks to the Alexa shower head     - CNET</title>
+			<link>https://www.cnet.com/pictures/all-the-smart-home-devices-of-ces-2020/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">01f761ac-8bbc-4ea5-bf6f-24623c69a5b1</guid>
+			<pubDate>Wed, 08 Jan 2020 00:51:00 +0000</pubDate>
+			<description>As usual, the connected home is a huge deal at the year&#039;s biggest tech show. Here&#039;s a running list of the most interesting new devices we&#039;ll be tracking in 2020.</description>
+			<media:thumbnail url="https://cnet4.cbsistatic.com/img/zmAdK33N8V4KV_f7sU0X2PUvbQk=/300x0/2020/01/05/be620906-4b52-4591-8f2c-3f116abeb38a/floodlightenvironment.png"/>
+			<dc:creator>Rich Brown</dc:creator>
+		</item>
+		<item>
+			<title>The biggest and best TVs of CES 2020     - CNET</title>
+			<link>https://www.cnet.com/pictures/the-biggest-and-best-tvs-of-ces-2020/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">3245a081-5944-40de-b681-c570b761bb11</guid>
+			<pubDate>Wed, 08 Jan 2020 00:22:00 +0000</pubDate>
+			<description>From a 292-inch MicroLED to OLEDs that roll up (and down), CES has more big screens than any place on Earth this week.</description>
+			<media:thumbnail url="https://cnet2.cbsistatic.com/img/ikH9iHzKP3pgVeH4p5LsWmzWay8=/300x0/2020/01/07/92e5ea76-af81-415f-b0d0-1fa2fde1501e/005-sony-ces-2020-booth-tvs.jpg"/>
+			<dc:creator>Ty Pendlebury</dc:creator>
+		</item>
+		<item>
+			<title>With D780, Nikon finally shows fans of its midrange DSLR some love     - CNET</title>
+			<link>https://www.cnet.com/news/nikon-d780-shows-its-midrange-dslr-fans-some-love-at-ces-2020/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">a122d978-ad67-4e20-b37d-89afb458cf07</guid>
+			<pubDate>Wed, 08 Jan 2020 00:19:45 +0000</pubDate>
+			<description>It has much improved live view capabilities, because Nikon&#039;s learned from mirrorless.</description>
+			<media:thumbnail url="https://cnet1.cbsistatic.com/img/4QJWPm5hmhiaovQ-w60-rRKMngU=/300x0/2020/01/07/09c1ed24-5131-4c5a-9a40-db6650726ebd/001-nikon-d780.jpg"/>
+			<dc:creator>Lori Grunin</dc:creator>
+		</item>
+		<item>
+			<title>Samsung expects another steep decline in fourth-quarter profit     - CNET</title>
+			<link>https://www.cnet.com/news/samsung-expects-another-steep-decline-in-fourth-quarter-profit/#ftag=CAD590a51e</link>
+			<guid isPermaLink="false">445068ad-56ad-4f5f-96f6-68c1676af186</guid>
+			<pubDate>Wed, 08 Jan 2020 00:14:00 +0000</pubDate>
+			<description>Operating profit is expected to drop 34% for the quarter, on top of a 29% decline in the year-ago quarter.</description>
+			<media:thumbnail url="https://cnet3.cbsistatic.com/img/vdM4Pme2-cT_LWH5A0_zzk0MF9w=/300x0/2015/06/12/dec08514-16c2-433a-9354-2f76d512d35b/mobile-payments-5626.jpg"/>
+			<dc:creator>Steven Musil</dc:creator>
+		</item>
+	</channel>
+</rss>
