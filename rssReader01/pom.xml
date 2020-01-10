@@ -18,6 +18,12 @@
 			<version>1.12.2</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.rometools/rome-modules -->
+		<dependency>
+			<groupId>com.rometools</groupId>
+			<artifactId>rome-modules</artifactId>
+			<version>1.12.2</version>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
 		<dependency>

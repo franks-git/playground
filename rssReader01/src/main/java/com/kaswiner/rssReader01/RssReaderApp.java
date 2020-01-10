@@ -1,26 +1,48 @@
 package com.kaswiner.rssReader01;
 
 import java.io.BufferedReader;
+
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.apache.commons.io.IOUtils;
+import org.apache.http.Header;
+import org.apache.http.HttpHeaders;
 import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.client.methods.RequestBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.message.BasicHeader;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
+import com.rometools.modules.mediarss.MediaEntryModule;
+import com.rometools.modules.mediarss.MediaModule;
+import com.rometools.modules.mediarss.MediaModuleImpl;
+import com.rometools.modules.mediarss.types.MediaContent;
+import com.rometools.modules.mediarss.types.MediaGroup;
+import com.rometools.modules.mediarss.types.Metadata;
+import com.rometools.modules.mediarss.types.Reference;
+import com.rometools.modules.mediarss.types.Thumbnail;
+import com.rometools.modules.mediarss.types.UrlReference;
+import com.rometools.rome.feed.module.Module;
 import com.rometools.rome.feed.synd.SyndEntry;
 import com.rometools.rome.feed.synd.SyndFeed;
 import com.rometools.rome.io.SyndFeedInput;
 import com.rometools.rome.io.XmlReader;
+import com.rometools.utils.Lists;
+
 
 public class RssReaderApp {
 
@@ -36,25 +58,59 @@ public class RssReaderApp {
 			SyndFeed cnetFeed = input.build(new XmlReader(pathCnet.toFile()));
 			SyndFeed cnnFeed = input.build(new XmlReader(pathCnn.toFile()));
 
+			cnnFeed.getModules().add(cnnFeed.getModule(MediaModule.URI));
+			
+			
+			// CNN
+			for (SyndEntry syndEntry : cnetFeed.getEntries()) {
+				String title = syndEntry.getTitle();
+				String description = syndEntry.getDescription().getValue();
+
+				MediaEntryModule mediaEntryModule = (MediaEntryModule) syndEntry.getModule(MediaModule.URI);
+				Metadata metaData = mediaEntryModule.getMetadata();
+				String urlThumbnail = null;
+				if (metaData != null) {
+					Thumbnail[] thumbnails = metaData.getThumbnail();
+					urlThumbnail = thumbnails[0].getUrl().toASCIIString();
+					
+				} else {
+				
+					MediaGroup[] mediaGroups = mediaEntryModule.getMediaGroups();
+					MediaContent[] mediaContents = mediaGroups[0].getContents();
+					UrlReference urlRef = (UrlReference) mediaContents[0].getReference(); 
+					String imageUri = urlRef.getUrl().toString();
+				}
+				
+				
+			}
 			
 			// BBC
 			for (SyndEntry syndEntry : bbcFeed.getEntries()) {
+				
 				String title = syndEntry.getTitle();
 				String description = syndEntry.getDescription().getValue();
 				String link = syndEntry.getLink();
 
-				try (CloseableHttpClient client = HttpClientBuilder.create().build()) {
+				Header header = new BasicHeader(HttpHeaders.CONTENT_TYPE, "application/json");
+				//List<Element> thumbnailsElement = syndEntry.getModule("").select("media:thumbnail");
+				
 
-					HttpGet request = new HttpGet(link);
-					HttpResponse response = client.execute(request);
+				List<Header> headers = new ArrayList<Header>();
 
-					String html = IOUtils.toString(response.getEntity().getContent(), StandardCharsets.UTF_8);
+				try (CloseableHttpClient client = HttpClientBuilder.create().setDefaultHeaders(headers).build()) {
+
+					//HttpUriRequest request = RequestBuilder.get().setUri(link).build();
+					//HttpResponse response = client.execute(request);
+					//String html = IOUtils.toString(response.getEntity().getContent(), StandardCharsets.UTF_8);
 					
-					Document feed = Jsoup.parse(html);
+					//
+					String html = new String(Files.readAllBytes(Paths.get(System.class.getResource("/bbc-news01.html").toURI())));
+
+					Document htmlDocument = Jsoup.parse(html);
 					
-					List<Element> elements = feed.select("item");
+					List<Element> metaElements = htmlDocument.select("meta");
 					
-					for (Element element : elements) {
+					for (Element element : metaElements) {
 						List<Element> thumbnailsElement = element.select("media:thumbnail");
 						
 						System.out.println(thumbnailsElement.get(0).text());  
