@@ -65,22 +65,32 @@ public class RssReaderApp {
 			for (SyndEntry syndEntry : cnetFeed.getEntries()) {
 				String title = syndEntry.getTitle();
 				String description = syndEntry.getDescription().getValue();
-
-				MediaEntryModule mediaEntryModule = (MediaEntryModule) syndEntry.getModule(MediaModule.URI);
-				Metadata metaData = mediaEntryModule.getMetadata();
 				String urlThumbnail = null;
-				if (metaData != null) {
-					Thumbnail[] thumbnails = metaData.getThumbnail();
-					urlThumbnail = thumbnails[0].getUrl().toASCIIString();
+				
+				// Finding thumbnail
+				MediaEntryModule mediaEntryModule = (MediaEntryModule) syndEntry.getModule(MediaModule.URI);
+				
+				if (mediaEntryModule != null) {
+					MediaContent[] mediaContents = mediaEntryModule.getMediaContents();
+					Metadata metaData = mediaEntryModule.getMetadata();
+					if (metaData != null) {
+						Thumbnail[] thumbnails = metaData.getThumbnail();
+						
+						
+//						
+//						urlThumbnail = thumbnails[0].getUrl().toASCIIString();
+						
+					} else {
 					
-				} else {
-				
-					MediaGroup[] mediaGroups = mediaEntryModule.getMediaGroups();
-					MediaContent[] mediaContents = mediaGroups[0].getContents();
-					UrlReference urlRef = (UrlReference) mediaContents[0].getReference(); 
-					String imageUri = urlRef.getUrl().toString();
+						MediaGroup[] mediaGroups = mediaEntryModule.getMediaGroups();
+						MediaContent[] mediaGroupContents = mediaGroups[0].getContents();
+						UrlReference urlRef = (UrlReference) mediaGroupContents[0].getReference(); 
+						String imageUri = urlRef.getUrl().toString();
+					}
+					
+					
+					
 				}
-				
 				
 			}
 			
