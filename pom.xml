@@ -10,12 +10,17 @@
 		<module>textSearching01</module>
 		<module>rssReader01</module>
 		<module>htmlParser</module>
-		<module>Connectors</module>
+		<module>connectors</module>
+        <module>learning</module>
+        <module>game1</module>
+        <module>game2</module>
 	</modules>
 
-	<dependencyManagement>
-		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+    <properties>
+    </properties>
+
+    <dependencyManagement>
 		<dependencies>
-		</dependencies>
-  	</dependencyManagement>
+       	</dependencies>
+    </dependencyManagement>
 </project>
