@@ -18,7 +18,7 @@ public class Dijkstra {
 	private Set<State> openedStates;
 	private Set<State> closedStates;
 	private Map<State, State> predecessors;
-	private Map<State, Integer> distance;
+	private Map<State, Integer> mapDistances;
 	
 	public Dijkstra(Graph graph) {
 		this.states = new ArrayList<State>(graph.getStates());
@@ -26,43 +26,30 @@ public class Dijkstra {
 	}
 	
 	public void execute(State source) {
-		this.openedStates = new HashSet<State>();
-		this.closedStates = new HashSet<State>();
+		this.openedStates = new HashSet<>();
+		this.closedStates = new HashSet<>();
 		this.predecessors = new HashMap<>();
-		this.distance = new HashMap<>();
+		this.mapDistances = new HashMap<>();
 		
 		this.openedStates.add(source);
-		this.distance.put(source, 0);
+		this.mapDistances.put(source, 0);
 		
-		while (this.openedStates.size() > 0) {
-			State state = this.getMinimum(this.openedStates);
+		while (!this.openedStates.isEmpty()) {
+			State state = this.calcMinimumDistanceFromOpenedStates();
 			this.openedStates.remove(state);
 			this.closedStates.add(state);
-			this.findMinimalDistance(state);
+			this.calcMinimalDistance(state);
 		}
 	}
 	
-	public void findMinimalDistance(State state) {
-		List<State> nextPossibleStates = this.getNextPossibleStates(state);
-		
-		for (State nextPossibleState : nextPossibleStates) {
-			if (this.getDistance(nextPossibleState) == -1 || this.getDistance(nextPossibleState) > this.getDistance(state) + this.getDistance(state, nextPossibleState)) {
-				this.openedStates.add(nextPossibleState);
-				this.distance.put(nextPossibleState, this.getDistance(state) + this.getDistance(state, nextPossibleState));
-
-				this.predecessors.put(nextPossibleState, state);
-			}
-		}
-	}
-	
-	public State getMinimum(Set<State> states) {
+	public State calcMinimumDistanceFromOpenedStates() {
 		State minimum = null;
 		
-		for (State state : states) {
+		for (State state : this.openedStates) {
 			if (minimum == null) {
 				minimum = state;
 			} else {
-				if (this.getDistance(state) < this.getDistance(minimum)) {
+				if (this.calcDistance(state) < this.calcDistance(minimum)) {
 					minimum = state;
 				}
 			}
@@ -71,9 +58,22 @@ public class Dijkstra {
 		return minimum;
 	}
 	
-	public int getDistance(State destinationState) {
+	public void calcMinimalDistance(State state) {
+		List<State> nextPossibleStates = this.getNextPossibleStates(state);
+		
+		for (State nextPossibleState : nextPossibleStates) {
+			if (this.calcDistance(nextPossibleState) == -1 || this.calcDistance(nextPossibleState) > this.calcDistance(state) + this.calcDistance(state, nextPossibleState)) {
+				this.openedStates.add(nextPossibleState);
+				this.mapDistances.put(nextPossibleState, this.calcDistance(state) + this.calcDistance(state, nextPossibleState));
+
+				this.predecessors.put(nextPossibleState, state);
+			}
+		}
+	}
+	
+	public int calcDistance(State destinationState) {
 		Integer result = null;
-		Integer distanceState = this.distance.get(destinationState);
+		Integer distanceState = this.mapDistances.get(destinationState);
 		
 		if (distanceState == null) {
 			result = -1;
@@ -84,7 +84,7 @@ public class Dijkstra {
 		return result;
 	}
 	
-	public int getDistance(State sourceState, State targetState) {
+	public int calcDistance(State sourceState, State targetState) {
 		int cost = -1;
 		
 		for (Transition transition : this.transitions) {
@@ -101,15 +101,15 @@ public class Dijkstra {
 	}
 	
 	public List<State> getNextPossibleStates(State state) {
-		List<State> neighbors = new ArrayList<>();
+		List<State> nextPossibleStates = new ArrayList<>();
 		
 		for (Transition transition : this.transitions) {
 			if (transition.getSource().equals(state) && !this.isSettled(transition.getDestination())) {
-				neighbors.add(transition.getDestination());
+				nextPossibleStates.add(transition.getDestination());
 			}
 		}
 		
-		return neighbors;
+		return nextPossibleStates;
 	}
 	
 	public boolean isSettled(State state) {
