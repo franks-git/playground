@@ -34,7 +34,7 @@ public class DijkstraTest {
 		List<Transition> transitions = Arrays.asList(transitionAB, transitionBC, transitionAD, transitionBE, transitionCF, transitionDE, transitionEF);
 		
 		Graph graph = new Graph(states, transitions);
-		new Dijkstra(graph).execute(stateA);
+		new Dijkstra_v1(graph).execute(stateA);
 		
 		assertTrue(true);
 	}

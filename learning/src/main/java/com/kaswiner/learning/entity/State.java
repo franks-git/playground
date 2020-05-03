@@ -38,4 +38,9 @@ public class State {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "State [id=" + id + ", name=" + name + "]";
+	}
 }

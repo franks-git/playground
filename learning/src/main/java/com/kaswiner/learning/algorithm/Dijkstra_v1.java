@@ -12,7 +12,7 @@ import com.kaswiner.learning.entity.Graph;
 import com.kaswiner.learning.entity.State;
 import com.kaswiner.learning.entity.Transition;
 
-public class Dijkstra {
+public class Dijkstra_v1 {
 	private List<State> states;
 	private List<Transition> transitions;
 	private Set<State> openedStates;
@@ -20,7 +20,7 @@ public class Dijkstra {
 	private Map<State, State> predecessors;
 	private Map<State, Integer> mapDistances;
 	
-	public Dijkstra(Graph graph) {
+	public Dijkstra_v1(Graph graph) {
 		this.states = new ArrayList<State>(graph.getStates());
 		this.transitions = new ArrayList<Transition>(graph.getTransitions());
 	}
@@ -35,14 +35,14 @@ public class Dijkstra {
 		this.mapDistances.put(source, 0);
 		
 		while (!this.openedStates.isEmpty()) {
-			State state = this.calcMinimumDistanceFromOpenedStates();
+			State state = this.calcMinimumDistanceOpenedState();
 			this.openedStates.remove(state);
 			this.closedStates.add(state);
-			this.calcMinimalDistance(state);
+			this.calcDistanceForNextPossibleStates(state);
 		}
 	}
 	
-	public State calcMinimumDistanceFromOpenedStates() {
+	public State calcMinimumDistanceOpenedState() {
 		State minimum = null;
 		
 		for (State state : this.openedStates) {
@@ -58,7 +58,7 @@ public class Dijkstra {
 		return minimum;
 	}
 	
-	public void calcMinimalDistance(State state) {
+	public void calcDistanceForNextPossibleStates(State state) {
 		List<State> nextPossibleStates = this.getNextPossibleStates(state);
 		
 		for (State nextPossibleState : nextPossibleStates) {
